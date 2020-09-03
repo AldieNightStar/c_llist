@@ -29,6 +29,7 @@ int main() {
 		// Print each value
 		printf("%s\n", str);
 	}
+	llist_puller_free(p); // Do not forget to clear Puller itself.
 	
 	
 	// Get and print list Length
